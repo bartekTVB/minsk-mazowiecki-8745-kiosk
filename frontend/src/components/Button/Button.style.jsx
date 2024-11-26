@@ -12,17 +12,21 @@ const StyledButton = styled.div`
   border-radius: .5rem;
   margin: 1.5rem;
   cursor: pointer;
-  transition: transform 50ms;
+  transition: all 0.2s;
 
   /* btn name */
   & > div:nth-child(2) {
-    margin-top: 1rem;
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     font-weight: bold;
   }
 
   &:active {
-    transform: scale(.95);
+    transform: scale(.97);
   }
 `;
 
