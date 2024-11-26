@@ -1,0 +1,90 @@
+{
+    "baseURL": ".",
+    "pathXmlCurrency": "",
+    "pathXmlWeather": "",
+    "label": "Menu główne",
+    "carousel": [
+        {
+            "id": 0,
+            "title": "Odbierz 200 zł zakładając konto ROR Junior!",
+            "txt1": "Bezpłatne konto ROR Junior w promocji",
+            "txt2": "",
+            "img": "slider-19-desktop.jpg",
+            "page": "https://www.meanderbank.pl/aktualnosci.php#info31"
+        },
+        {
+            "id": 1,
+            "title": "Nowe Bankomaty z funkcją Wpłatomatu",
+            "txt1": "Korzystaj z DARMOWYCH wpłat na swoje rachunki",
+            "txt2": "",
+            "img": "slider-14-desktop.jpg",
+            "page": "https://www.meanderbank.pl/bankomaty-i-wplatomaty.php"
+        },
+        {
+            "id": 2,
+            "title": "Poznaj BLIK",
+            "txt1": "Natychmiastowe przelewy na telefon nawet w niedzielę i święta!",
+            "txt2": "",
+            "img": "slider-05-desktop.jpg",
+            "page": "https://www.meanderbank.pl/blik.php"
+        }
+    ],
+    "menu": [
+        {
+            "id": 0,
+            "label": "",
+            "url": "",
+            "iconNumber": 1,
+            "submenu": []
+        },
+        {
+            "id": 1,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 2,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 3,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 4,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 5,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 6,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        },
+        {
+            "id": 7,
+            "label": "",
+            "url": "",
+            "iconNumber": 28,
+            "submenu": []
+        }
+    ]
+}

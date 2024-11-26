@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <style>
+        html,
+        body,
+        #root {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #root {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lds-ripple {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
+
+        .lds-ripple div {
+            position: absolute;
+            border: 4px solid #333;
+            opacity: 1;
+            border-radius: 50%;
+            animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        }
+
+        .lds-ripple div:nth-child(2) {
+            animation-delay: -0.5s;
+        }
+
+        @keyframes lds-ripple {
+            0% {
+                top: 36px;
+                left: 36px;
+                width: 0;
+                height: 0;
+                opacity: 0;
+            }
+
+            4.9% {
+                top: 36px;
+                left: 36px;
+                width: 0;
+                height: 0;
+                opacity: 0;
+            }
+
+            5% {
+                top: 36px;
+                left: 36px;
+                width: 0;
+                height: 0;
+                opacity: 1;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+                width: 72px;
+                height: 72px;
+                opacity: 0;
+            }
+        }
+    </style>
+
+    <script id="frontend-config" type="application/json">
+        {
+            "baseURL": ".",
+            "pathXmlCurrency": "",
+            "pathXmlWeather": "http://localhost:3000/pogoda-poznan.xml",
+            "label": "Menu główne",
+            "carousel": [],
+            "menu": [
+                {
+                    "id": 0,
+                    "label": "Informacje o Banku",
+                    "url": "https://bsminskmaz.pl/wadze-banku.html",
+                    "iconNumber": 1,
+                    "submenu": []
+                },
+                {
+                    "id": 1,
+                    "label": "Aktualności",
+                    "url": "https://www.bsminskmaz.pl/aktualnosci.html",
+                    "iconNumber": 2,
+                    "submenu": []
+                },
+                {
+                    "id": 2,
+                    "label": "Oferta",
+                    "url": "https://www.bsminskmaz.pl/oferta.html",
+                    "iconNumber": 3,
+                    "submenu": []
+                },
+                {
+                    "id": 3,
+                    "label": "Oprocentowanie\\nstawki referencyjne",
+                    "url": "/3",
+                    "iconNumber": 4,
+                    "submenu": [
+                        {
+                            "id": 0,
+                            "label": "Stawki wibid wibor",
+                            "url": "https://bsminskmaz.pl/stawki-wibid-wibor.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 1,
+                            "label": "Oprocentowanie kredytów",
+                            "url": "https://bsminskmaz.pl/oprocentowanie-kredytoacutew.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 2,
+                            "label": "Oprocentowanie depozytów",
+                            "url": "https://bsminskmaz.pl/oprocentowanie-depozytoacutew.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "label": "Taryfa opłat\\ni prowizji",
+                    "url": "/4",
+                    "iconNumber": 5,
+                    "submenu": [
+                        {
+                            "id": 0,
+                            "label": "Klienci instytucjonalne",
+                            "url": "https://bsminskmaz.pl/taryfa-klient-instytucjonalny.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 1,
+                            "label": "Klienci indywidualni",
+                            "url": "https://bsminskmaz.pl/taryfa-klient-indywidualny.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "label": "Bezpieczeństwo",
+                    "url": "/5",
+                    "iconNumber": 6,
+                    "submenu": [
+                        {
+                            "id": 0,
+                            "label": "Zastrzeganie dokumentów tożsamości",
+                            "url": "",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 1,
+                            "label": "Bezpieczeństwo a Internet Banking",
+                            "url": "https://bsminskmaz.pl/bezpieczestwo-a-internet-banking.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 2,
+                            "label": "Zastrzeganie kart",
+                            "url": "https://bsminskmaz.pl/zastrzeganie-kart.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        },
+                        {
+                            "id": 3,
+                            "label": "Komunikaty bezpieczeństwa",
+                            "url": "https://bsminskmaz.pl/komunikaty-bezpieczenstwa.html",
+                            "iconNumber": 1,
+                            "submenu": []
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "label": "RODO",
+                    "url": "https://bsminskmaz.pl/rozporzdzenia-o-ochronie-danych-osobowych.html",
+                    "iconNumber": 7,
+                    "submenu": []
+                },
+                {
+                    "id": 7,
+                    "label": "Kursy walut",
+                    "url": "",
+                    "iconNumber": 8,
+                    "submenu": []
+                },
+                {
+                    "id": 8,
+                    "label": "Wymogi Informacyjne",
+                    "url": "https://www.bsminskmaz.pl/informacje.html",
+                    "iconNumber": 9,
+                    "submenu": []
+                },
+                {
+                    "id": 9,
+                    "label": "E-dokumenty",
+                    "url": "https://bsminskmaz.pl/e-dokumenty.html",
+                    "iconNumber": 9,
+                    "submenu": []
+                },
+                {
+                    "id": 10,
+                    "label": "E-urząd",
+                    "url": "https://bsminskmaz.pl/mojeid.html",
+                    "iconNumber": 9,
+                    "submenu": []
+                },
+                {
+                    "id": 11,
+                    "label": "Logowanie do bankowości",
+                    "url": "https://konto.bsminskmaz.pl",
+                    "iconNumber": 9,
+                    "submenu": []
+                }
+            ]
+        }
+    </script>
+
+    <title>Kiosk</title>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>

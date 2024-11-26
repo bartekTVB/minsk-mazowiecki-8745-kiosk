@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<City time_diff="1" NameEn="Poznan,Poland">
+  <Day date="2022-01-9">
+    <Time name="night">
+      <tmin>-5</tmin>
+      <tmax>4</tmax>
+      <osad>osad2</osad>
+      <davl>748</davl>
+      <ov>94</ov>
+      <obl>3</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>SW</wind>
+    </Time>
+    <Time name="morning">
+      <tmin>-2</tmin>
+      <tmax>0</tmax>
+      <osad>osad3</osad>
+      <davl>745</davl>
+      <ov>91</ov>
+      <obl>4</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>SE</wind>
+    </Time>
+    <Time name="day">
+      <tmin>-3</tmin>
+      <tmax>1</tmax>
+      <osad>osad2</osad>
+      <davl>743</davl>
+      <ov>82</ov>
+      <obl>5</obl>
+      <wsmin>5</wsmin>
+      <wsmax>5</wsmax>
+      <wind>SE</wind>
+    </Time>
+    <Time name="evening">
+      <tmin>-1</tmin>
+      <tmax>2</tmax>
+      <osad>osad0</osad>
+      <davl>744</davl>
+      <ov>76</ov>
+      <obl>5</obl>
+      <wsmin>5</wsmin>
+      <wsmax>5</wsmax>
+      <wind>SE</wind>
+    </Time>
+  </Day>
+  <Day date="2022-01-10">
+    <Time name="night">
+      <tmin>-2</tmin>
+      <tmax>0</tmax>
+      <osad>osad0</osad>
+      <davl>747</davl>
+      <ov>82</ov>
+      <obl>5</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>SE</wind>
+    </Time>
+    <Time name="morning">
+      <tmin>-1</tmin>
+      <tmax>0</tmax>
+      <osad>osad1</osad>
+      <davl>750</davl>
+      <ov>89</ov>
+      <obl>5</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>SE</wind>
+    </Time>
+    <Time name="day">
+      <tmin>-1</tmin>
+      <tmax>1</tmax>
+      <osad>osad1</osad>
+      <davl>755</davl>
+      <ov>82</ov>
+      <obl>5</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>E</wind>
+    </Time>
+    <Time name="evening">
+      <tmin>-3</tmin>
+      <tmax>1</tmax>
+      <osad>osad0</osad>
+      <davl>760</davl>
+      <ov>80</ov>
+      <obl>2</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>NE</wind>
+    </Time>
+  </Day>
+  <Day date="2022-01-11">
+    <Time name="night">
+      <tmin>-4</tmin>
+      <tmax>-2</tmax>
+      <osad>osad0</osad>
+      <davl>764</davl>
+      <ov>86</ov>
+      <obl>0</obl>
+      <wsmin>4</wsmin>
+      <wsmax>4</wsmax>
+      <wind>NE</wind>
+    </Time>
+    <Time name="morning">
+      <tmin>-4</tmin>
+      <tmax>-3</tmax>
+      <osad>osad0</osad>
+      <davl>766</davl>
+      <ov>91</ov>
+      <obl>0</obl>
+      <wsmin>3</wsmin>
+      <wsmax>3</wsmax>
+      <wind>NE</wind>
+    </Time>
+    <Time name="day">
+      <tmin>-5</tmin>
+      <tmax>-2</tmax>
+      <osad>osad0</osad>
+      <davl>768</davl>
+      <ov>88</ov>
+      <obl>0</obl>
+      <wsmin>3</wsmin>
+      <wsmax>3</wsmax>
+      <wind>NE</wind>
+    </Time>
+    <Time name="evening">
+      <tmin>-4</tmin>
+      <tmax>-1</tmax>
+      <osad>osad0</osad>
+      <davl>769</davl>
+      <ov>86</ov>
+      <obl>1</obl>
+      <wsmin>3</wsmin>
+      <wsmax>3</wsmax>
+      <wind>NE</wind>
+    </Time>
+  </Day>
+  <Day date="2022-01-12">
+    <Time name="night">
+      <tmin>-5</tmin>
+      <tmax>-3</tmax>
+      <osad>osad0</osad>
+      <davl>770</davl>
+      <ov>91</ov>
+      <obl>1</obl>
+      <wsmin>2</wsmin>
+      <wsmax>2</wsmax>
+      <wind>N</wind>
+    </Time>
+    <Time name="morning">
+      <tmin>-6</tmin>
+      <tmax>-4</tmax>
+      <osad>osad0</osad>
+      <davl>771</davl>
+      <ov>93</ov>
+      <obl>2</obl>
+      <wsmin>1</wsmin>
+      <wsmax>1</wsmax>
+      <wind>N</wind>
+    </Time>
+    <Time name="day">
+      <tmin>-6</tmin>
+      <tmax>-2</tmax>
+      <osad>osad0</osad>
+      <davl>771</davl>
+      <ov>88</ov>
+      <obl>5</obl>
+      <wsmin>1</wsmin>
+      <wsmax>1</wsmax>
+      <wind>NW</wind>
+    </Time>
+    <Time name="evening">
+      <tmin>-4</tmin>
+      <tmax>-2</tmax>
+      <osad>osad0</osad>
+      <davl>770</davl>
+      <ov>83</ov>
+      <obl>3</obl>
+      <wsmin>2</wsmin>
+      <wsmax>2</wsmax>
+      <wind>W</wind>
+    </Time>
+  </Day>
+</City>
