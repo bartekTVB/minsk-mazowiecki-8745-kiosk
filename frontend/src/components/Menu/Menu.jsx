@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { StyledMenu, StyledWrapper } from './Menu.style';
 import Button from '../Button/Button';
-import { pageVariants, pageTransition, menuDecorTransition } from './motionConfig';
+import { pageVariants, pageTransition } from './motionConfig';
 import { motion } from "framer-motion";
 import { useLocation } from 'react-router-dom';
 import getElementByIndices from './menuUtils';

@@ -1,8 +1,8 @@
 import StyledLoader from './Loader.style';
 
-function Loader() {
+function Loader({ position }) {
   return (
-    <StyledLoader>
+    <StyledLoader $position={position}>
       <div>
         <div />
         <div />

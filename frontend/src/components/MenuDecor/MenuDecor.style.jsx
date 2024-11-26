@@ -8,7 +8,7 @@ const StyledMenuDecor = styled.div`
   width: 18rem;
   display: flex;
   transform: translateY(3rem);
-  animation: fade .5s .1s forwards ease-out;
+  animation: init .5s .1s forwards ease-out;
 
   & > div:nth-child(1),
   & > div:nth-child(2) {
@@ -35,13 +35,13 @@ const StyledMenuDecor = styled.div`
     background: ${({ theme }) => theme.white};
   }
 
-  @keyframes fade {
+  @keyframes init {
     from {
       transform: translateY(3rem);
     }
     to {
       transform: translateY(0);
-    }
+  }
 }
 `;
 export default StyledMenuDecor;

@@ -9,7 +9,7 @@ function getElementByIndices(config, subUrl) {
 
   let breadcrumb = [
     {
-      label: [config.label],
+      label: config.label,
       path: '',
     }
   ];

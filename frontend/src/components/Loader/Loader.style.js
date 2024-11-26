@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledLoader = styled.div`
-  position: fixed;
+  position: ${({$position}) => $position ? $position : 'fixed'};
   top: 0;
   left: 0;
   width: 100%;

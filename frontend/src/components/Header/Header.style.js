@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
-  border-bottom: .2rem solid ${({ theme }) => theme.gray};
+  border-bottom: .1rem solid ${({ theme }) => theme.gray200};
   margin: 0 4rem;
   
   & > div:nth-child(1) {

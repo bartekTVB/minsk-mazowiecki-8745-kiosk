@@ -5,7 +5,7 @@ import Clock from '../Clock/Clock';
 import Weather from '../Weather/Weather';
 
 function Header(props) {
-  const { breadcrumb, config, setLoader } = props;
+  const { breadcrumb } = props;
 
   return (
     <StyledHeader>
@@ -23,7 +23,7 @@ function Header(props) {
           breadcrumb.map((item, i) => {
             return (
               <Link key={i} to={item.path}>
-                <div>{item.label}</div>
+                <div>{item.label.replace(/\\n|\n/g, ' ')}</div>
               </Link>
             )
           })
