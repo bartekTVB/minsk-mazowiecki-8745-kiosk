@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
-  border-bottom: .1rem solid ${({ theme }) => theme.gray200};
+  /* border-bottom: .1rem solid ${({ theme }) => theme.gray100}; */
   margin: 0 4rem;
   
   & > div:nth-child(1) {
     height: 15rem;
     padding-top: 3rem;
     display: flex;
-    justify-content: space-between;
 
-    & > div {
-      display: flex;
+    & > div:last-child {
+      margin-left: 28rem;
     }
+
+
   }
 `;
 
@@ -35,7 +36,7 @@ const StyledNav = styled.div`
   }
 
   & > a:active {
-    background: ${({ theme }) => theme.buttonHover};
+    background: ${({ theme }) => theme.lightGreen};
   }
 
 `;

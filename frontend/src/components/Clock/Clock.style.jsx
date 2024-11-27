@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const StyledClock = styled.div`
   min-width: 24rem;
-  text-align: right;
+  text-align: center;
   font-weight: bold;
-  color: ${({ theme }) => theme.gray800};
+  color: ${({ theme }) => theme.gray600};
   transform: translateY(-1rem);
   
   & > div:first-child {
@@ -17,7 +17,7 @@ const StyledClock = styled.div`
 
   & > div:last-child {
     font-size: 1.8rem;
-    color: ${({ theme }) => theme.gray700};
+    color: ${({ theme }) => theme.gray600};
   }
 
   @keyframes tick {

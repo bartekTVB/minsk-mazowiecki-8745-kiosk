@@ -14,7 +14,7 @@ function Header(props) {
           <img src={logo} alt='' />
         </Link>
         <div>
-          <Weather {...props} />
+          {/* <Weather {...props} /> */}
           <Clock />
         </div>
       </div>
